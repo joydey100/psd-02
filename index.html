@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doop | PSD to HTML Conversion </title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- Back to Top -->
+     <div class="scrollTop" onclick ="scrollToTop();">   </div>
+     <!-- end of Back to Top -->
+ 
+     <!-- Start of  Header Section -->
+ 
+     <header>
+ 
+ 
+       <!-- Start of Main Menu -->
+ 
+       <nav>
+         <div class="logo">
+           <h2><a href="#"> <img src="img/logo.png" alt="logo"> </a></h2>
+         </div>
+ 
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#about">About us</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#blog">Blog</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+ 
+         <div class="toggle" onclick="openNav();">
+           <span> <i class="fas fa-bars"></i> </span>
+         </div>
+
+         <div class="contact-button">
+           <a href="#contact" class="btn"> Contact Us <i class="fas fa-arrow-right"></i></a>
+       </div>
+ 
+       </nav>
+
+       
+       <!-- End  of Main Menu -->
+ 
+ 
+ 
+ 
+       <!-- Start of Navigation Menu -->
+ 
+       <div id="navigation" class="navigation">
+         <div class="close-btn">
+           <span class="closebtn" onclick="closeNav();">
+             <i class="fas fa-times"></i>
+           </span>
+         </div>
+         <ul>
+           <li>
+             <a href="#" onclick="closeNav();">
+               <span class="icon">
+                 <i class="fa fa-home" aria-hidden="true"></i>
+               </span>
+               <span class="title"> Home</span>
+             </a>
+           </li>
+ 
+           <li>
+             <a href="#about" onclick="closeNav();">
+               <span class="icon">
+                 <i class="fa fa-user" aria-hidden="true"></i>
+               </span>
+               <span class="title"> About us</span>
+             </a>
+           </li>
+ 
+           <li>
+             <a href="#portfolio" onclick="closeNav();">
+               <span class="icon"> <i class="far fa-images"></i> </span>
+               <span class="title"> Portfolio</span>
+             </a>
+           </li>
+ 
+           <li>
+             <a href="#blog" onclick="closeNav();">
+               <span class="icon">
+                <i class="fab fa-blogger"></i>
+               </span>
+               <span class="title"> Blog</span>
+             </a>
+           </li>
+ 
+           <li>
+             <a href="#contact" onclick="closeNav();">
+               <span class="icon"><i class="fas fa-phone-alt"></i> </span>
+               <span class="title"> Contact</span>
+             </a>
+           </li>
+         </ul>
+       </div>
+ 
+       <!-- End of Naviagation Menu -->
+
+
+       <section id="hero-area">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="hero-area-content">
+                        <h2>The Spirit of Digital Agency.</h2>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                        <div class="hero-area-buttons">
+                        <a href="#" class="btn more-btn"> More About Us</a>
+                        <a href="#" class="btn touch-btn"> Get in Touch</a>                        
+                        </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 mt-5">
+                    <div class="hero-area-image text-center">
+                        <img src="img/banner.jpg" alt="banner">
+                    </div>
+                </div>
+               </div>
+           </div>
+       </section>
+
+
+ 
+ 
+     </header>
+     <!-- End of Header Section -->
+
+
+
+
+     <!-- Start of About Section -->
+     <section id="about">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-4 mt-5">
+                     <div class="about-box-one">
+                        <h2>Anything you need,we’ve got you covered</h2>
+                        <a href="#" class="btn about-btn"> Get in Touch</a>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="about-box-two mt-5">
+                        <img src="img/about-1.jpg" alt="about-one-image">
+                        <h2>Web & Graphic Design</h2>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="about-box-three">
+                        <img src="img/about-2.jpg" alt="about-one-image">
+                        <h2>Web & App Development</h2>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                    </div>
+                </div>
+             </div>
+         </div>
+     </section>
+     <!-- End of About Section -->
+
+
+     <!-- Start of Service Section -->
+     <section id="service">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6 mt-5">
+                     <div class="service-image">
+                         <img src="img/service-1.jpg" alt="Service">
+                     </div>
+                 </div>
+                 <div class="col-md-6 mt-5">
+                     <div class="service-content">
+                    <span>OUR COMPANY</span>
+                    <h2> Some Fine <br> Words About Us</h2>
+                    <p> Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet. Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+
+                     </div>                     
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- End of Service Section -->
+
+
+
+
+     <!-- Start of Portfolio Section -->
+     <section id="portfolio">
+         <div class="container">
+             <div class="row mb-5">
+                 <div class="col-md-6">
+                     <div class="portfolio-heading">
+                         <h2> See some of our
+                            Creative work.</h2>
+                     </div>
+                 </div>
+                 <div class="col-md-6 text-right">
+                     <div class="portfolio-next">
+                         <a href="#"> <i class="fas fa-arrow-right"></i> </a>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-4 mt-4">
+                     <div class="porfolio-image">
+                         <img src="img/p1.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="col-md-4 mt-4">
+                    <div class="porfolio-image">
+                        <img src="img/p2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="porfolio-image">
+                        <img src="img/p3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="porfolio-image">
+                        <img src="img/p4.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="porfolio-image">
+                        <img src="img/p5.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="porfolio-image">
+                        <img src="img/p6.jpeg" alt="">
+                    </div>
+                </div>
+             </div>
+         </div>
+         <div class="see-more-portfolio text-center">
+             <p> See More of These.</p>
+         </div>
+     </section>
+
+     <!-- End of Portfolio Section -->
+
+
+
+
+
+
+     <!-- Start of Blog Section -->
+     <section id="blog">
+      <div class="container">
+        <div class="blog-title">
+          <span>BLOG STORIES</span>
+          <h2> Check Our News</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-5">
+            <div class="blog-box blog-active">
+              <h4> New Adventure </h4>
+              <span> 17 March 2019 </span>
+              <p> Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+              <div class="blog-arrow text-right">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5">
+            <div class="blog-box">
+              <h4> New Adventure </h4>
+              <span> 17 March 2019 </span>
+              <p> Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+              <div class="blog-arrow text-right">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5">
+            <div class="blog-box">
+              <h4> New Adventure </h4>
+              <span> 17 March 2019 </span>
+              <p> Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+              <div class="blog-arrow text-right">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- End of Blog Section -->
+
+
+
+
+    <!-- Start of Contact Section -->
+    <section id="contact">      
+      <div class="container">
+        <div class="contact-title">
+          <span>CONTACT US</span>
+          <h2> Get in Touch</h2>
+        </div>
+        <form>
+          <div class="row">            
+            <div class="col-md-6 mt-5">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="col-md-6 mt-5">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>            
+          </div>
+        </form>
+        <div class="form-group mt-5">
+          <textarea class="form-control" id="" placeholder="Message Here..."></textarea>
+        </div>
+        <div class="contact-submit text-center">
+          <input type="submit" value="Send Message">
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Section -->
+
+
+
+    <!-- Start of Footer Section -->
+    <footer>
+      <div class="container text-center">
+        <div class="footer-logo">
+          <p>DOOB</p>          
+        </div>
+        <div class="footer-text">
+          <h2>CREATIVITY ABOVE</h2>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-copyright">
+          <span> © 2019 - Doob,All Right Reserved</span>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li><a href="www.facebook.com"> <i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="www.twitter.com"> <i class="fab fa-twitter"></i></a></li>
+            <li><a href="www.linkedin.com"> <i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+    <!-- Start of Footer Section -->
+
+
+
+
+
+
+     
+
+
+
+
+
+ 
+    
+
+    <!-- JS Files -->
+    <!-- Bootstrap JS CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
